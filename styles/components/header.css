@@ -1,0 +1,18 @@
+/*@import "../defaults/color.scss";
+@import "../defaults/breakpoint.scss";
+
+header {
+
+    .bamboo-home {
+        @media screen and (max-width: 600px) {
+            margin-bottom: 24px;
+        }
+    }
+
+    .nav-items {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 50px;
+    }
+}*//*# sourceMappingURL=header.css.map */
