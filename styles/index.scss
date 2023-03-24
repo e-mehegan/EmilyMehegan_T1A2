@@ -1,18 +1,22 @@
 @import "./defaults/color.scss";
+@import "./components/utils.scss";
 /*@import "./components/header.scss";
 @import "./components/footer.scss";*/
 
 @mixin background-content() {
     background-color: $primary-color;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
     border-radius: 30px;
     border: 1px solid $secondary-color;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 body {
     background-color: $primary-background;
-    margin: 20px;
+    margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -27,6 +31,12 @@ header {
         display: flex;
         justify-content: space-around;
         font-size: 40px;
+
+        .bamboo-home {
+            @media screen and (max-width: 600px) {
+                margin-bottom: 24px;
+            }
+        }
     
         .nav-about {
             transition: 2s;
@@ -62,6 +72,7 @@ header {
 
         a.nav-items {
             color: black;
+            text-decoration: none;
         }
 
         a:visited {
@@ -77,6 +88,7 @@ header {
 
         .nav-items {
         font-size: 20px;
+        text-align: center;
         }
     }
 }
@@ -86,7 +98,7 @@ main {
     section {
         .forest {
             img {
-                height: 400px;
+                height: 350px;
                 width: 100%;
                 margin-bottom: 20px;
             }
@@ -102,13 +114,15 @@ main {
 footer {
     @include background-content();
 
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 200px;
+    margin-right: 200px;
 
     .social-media {
         display: flex;
         justify-content: space-around;
-        font-size: 30px;
+        font-size: 25px;
+        transition: 2s;
+        color: black;
     }
 }
 
@@ -125,3 +139,11 @@ footer {
         }
     }
 }
+
+/*@media screen and (min-width: 1000px) {
+    footer {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}*/
+
