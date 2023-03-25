@@ -17,7 +17,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $medium) {
     footer {
         margin-left: 100px;
         margin-right: 100px;

@@ -1,5 +1,5 @@
 @import "../defaults/color.css";
-@import "../defaults/breakpoint.scss";
+@import "../defaults/breakpoint";
 @import "../components/utils";
 
 header {
@@ -10,12 +10,6 @@ header {
         display: flex;
         justify-content: space-around;
         font-size: 40px;
-
-        .bamboo-home {
-            @media screen and (max-width: 600px) {
-                margin-bottom: 24px;
-            }
-        }
     
         .nav-about {
             transition: 2s;
@@ -60,7 +54,7 @@ header {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $medium) {
     header {
         display: flex;
         align-items: flex-end;
