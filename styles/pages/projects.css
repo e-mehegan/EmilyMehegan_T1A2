@@ -1,0 +1,123 @@
+@import "../defaults/color.css";
+header {
+  background-color: #C9D4C6;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid #353A2C;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+header .nav-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+}
+header .nav-items .nav-about {
+  transition: 2s;
+  text-decoration: none;
+}
+header .nav-items .nav-about:hover {
+  transform: scale(1.1);
+}
+header .nav-items .nav-projects {
+  transition: 2s;
+  text-decoration: none;
+}
+header .nav-items .nav-projects:hover {
+  transform: scale(1.1);
+}
+header .nav-items .nav-blogs {
+  transition: 2s;
+  text-decoration: none;
+}
+header .nav-items .nav-blogs:hover {
+  transform: scale(1.1);
+}
+header .nav-items .nav-contact {
+  transition: 2s;
+  text-decoration: none;
+}
+header .nav-items .nav-contact:hover {
+  transform: scale(1.1);
+}
+header .nav-items a.nav-items {
+  color: black;
+}
+header .nav-items a:visited {
+  color: #353A2C;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+  }
+  header .nav-items {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+footer {
+  background-color: #C9D4C6;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid #353A2C;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  transition: 2s;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+  }
+}
+body {
+  background-color: #353A2C;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main article {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 0px;
+  background-color: #C9D4C6;
+  padding: 24px;
+  text-align: center;
+}
+main article section {
+  float: inline-start;
+}
+main article section .projects-image {
+  width: 300px;
+  border-radius: 16px;
+}/*# sourceMappingURL=projects.css.map */

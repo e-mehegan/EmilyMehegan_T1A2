@@ -13,6 +13,7 @@ header {
     
         .nav-about {
             transition: 2s;
+            text-decoration: none;
         }
 
         .nav-about:hover {
@@ -21,6 +22,7 @@ header {
 
         .nav-projects {
             transition: 2s;
+            text-decoration: none;
         }
 
         .nav-projects:hover {
@@ -29,6 +31,7 @@ header {
 
         .nav-blogs {
             transition: 2s;
+            text-decoration: none;
         }
 
         .nav-blogs:hover {
@@ -37,6 +40,7 @@ header {
 
         .nav-contact {
             transition: 2s;
+            text-decoration: none;
         }
 
         .nav-contact:hover {
@@ -45,7 +49,7 @@ header {
 
         a.nav-items {
             color: black;
-            text-decoration: none;
+    
         }
 
         a:visited {
