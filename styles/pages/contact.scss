@@ -1,6 +1,7 @@
 @import "../defaults/color";
 @import "../defaults/breakpoint";
 
+
 header {
     background-color: $primary-background;
     text-align: center;
@@ -77,7 +78,7 @@ header {
 }
 
 body {
-    background-color: $secondary-color;
+    background-color: $primary-color;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -85,28 +86,94 @@ body {
     justify-content: space-between;
 }
 
+
+
+
 main {
+
+    .form-elements {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    }
 
-    article {
-        border-radius: 10px;
-        overflow: hidden;
-        margin: 10px 0px;
-        background-color: $primary-color;
-        padding: 24px;
-        text-align: center;
+    form {
 
-        section {
+        margin-bottom: 50px;
 
-            .projects-image {
-                width: 300px;
-                border-radius: 16px;
+        .form-elements {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 28px;
+
+            label {
+                font-size: 1.6rem;
+            }
+
+            .form-input {
+                border: 1px solid $primary-color;
+                border-radius: 4px;
+                border-color: $secondary-color;
+                outline: none;
+                font-size: 1.2rem;
+
+                &:not(.form-textarea) {
+                    height: 50px;
+                    width: 400px;
+                }
+
+                &.form-textarea {
+                    resize: none;
+                }
+
+                &:focus {
+                    box-shadow: 0 0 8px 3px $secondary-color;
+                }
+
+            }
+        }
+
+        .btn-div {
+            text-align: center;
+
+            #send {
+                height: 60px;
+                min-width: 120px;
+                background-color: $primary-background;
+                border-radius: 8px;
+                border: none;
+                outline:none;
+                font-size: 1.2rem;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+@media screen and (min-width: $medium) {
+    main {
+        form {
+
+            .form-elements {
+                flex-direction: row;
+                justify-content: space-between;
+
+                .form-input {
+                    width: 100%;
+                }
             }
         }
     }
 }
+
+}
+
+
+
+
+
 
 footer {
     background-color: $primary-background;
@@ -127,7 +194,6 @@ footer {
         justify-content: space-around;
         font-size: 25px;
         transition: 2s;
-        color: black;
     }
 }
 

@@ -1,6 +1,5 @@
-@import "../defaults/color.css";
 header {
-  background-color: #C9D4C6;
+  background-color: #EBE1D9;
   text-align: center;
   padding: 20px;
   border-radius: 30px;
@@ -60,8 +59,75 @@ header .nav-items a:visited {
     text-align: center;
   }
 }
-footer {
+body {
   background-color: #C9D4C6;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main .form-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main form {
+  margin-bottom: 50px;
+}
+main form .form-elements {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 28px;
+}
+main form .form-elements label {
+  font-size: 1.6rem;
+}
+main form .form-elements .form-input {
+  border: 1px solid #C9D4C6;
+  border-radius: 4px;
+  border-color: #335533;
+  outline: none;
+  font-size: 1.2rem;
+}
+main form .form-elements .form-input:not(.form-textarea) {
+  height: 50px;
+  width: 400px;
+}
+main form .form-elements .form-input.form-textarea {
+  resize: none;
+}
+main form .form-elements .form-input:focus {
+  box-shadow: 0 0 8px 3px #335533;
+}
+main form .btn-div {
+  text-align: center;
+}
+main form .btn-div #send {
+  height: 60px;
+  min-width: 120px;
+  background-color: #EBE1D9;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+main form .btn-div #send:hover {
+  cursor: pointer;
+}
+@media screen and (min-width: 600px) {
+  main main form .form-elements {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main main form .form-elements .form-input {
+    width: 100%;
+  }
+}
+
+footer {
+  background-color: #EBE1D9;
   text-align: center;
   padding: 20px;
   border-radius: 30px;
@@ -77,7 +143,6 @@ footer .social-media {
   justify-content: space-around;
   font-size: 25px;
   transition: 2s;
-  color: black;
 }
 
 @media screen and (max-width: 600px) {
@@ -91,38 +156,4 @@ footer .social-media {
     margin-right: auto;
     font-size: 20px;
   }
-}
-body {
-  background-image: linear-gradient(to bottom, #EBE1D9 0%, #EBE1D9 17%, #335533 0%, #335533 83%);
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 600px) {
-  body {
-    background-image: linear-gradient(to bottom, #EBE1D9 0%, #EBE1D9 15%, #335533 0%, #335533 85%);
-  }
-}
-main {
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 100px 50px 1fr;
-  margin-bottom: 50px;
-}
-main .blog-heading {
-  background-color: #C9D4C6;
-  grid-column: 1/-1;
-  grid-row: 1/3;
-  text-align: center;
-  margin-top: 20px;
-  font-size: 20px;
-}
-main .date {
-  background-color: #EBE1D9;
-  padding: 20px;
-  grid-column: 2/3;
-  grid-row: 2/-1;
-}/*# sourceMappingURL=blogs.css.map */
+}/*# sourceMappingURL=contact.css.map */

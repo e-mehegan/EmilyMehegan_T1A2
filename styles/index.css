@@ -4,7 +4,7 @@ header {
   text-align: center;
   padding: 20px;
   border-radius: 30px;
-  border: 1px solid #353A2C;
+  border: 1px solid #335533;
   margin-left: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -47,7 +47,7 @@ header .nav-items a.nav-items {
   color: black;
 }
 header .nav-items a:visited {
-  color: #353A2C;
+  color: #335533;
 }
 
 @media screen and (max-width: 600px) {
@@ -65,7 +65,7 @@ footer {
   text-align: center;
   padding: 20px;
   border-radius: 30px;
-  border: 1px solid #353A2C;
+  border: 1px solid #335533;
   margin-left: 10px;
   margin-bottom: 10px;
   margin-top: 10px;

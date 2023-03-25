@@ -1,10 +1,9 @@
-@import "../defaults/color.css";
 header {
-  background-color: #C9D4C6;
+  background-color: #EBE1D9;
   text-align: center;
   padding: 20px;
   border-radius: 30px;
-  border: 1px solid #353A2C;
+  border: 1px solid #335533;
   margin-left: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -47,7 +46,7 @@ header .nav-items a.nav-items {
   color: black;
 }
 header .nav-items a:visited {
-  color: #353A2C;
+  color: #335533;
 }
 
 @media screen and (max-width: 600px) {
@@ -60,12 +59,39 @@ header .nav-items a:visited {
     text-align: center;
   }
 }
-footer {
+body {
+  background-color: #335533;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main article {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 0px;
   background-color: #C9D4C6;
+  padding: 24px;
+  text-align: center;
+}
+main article section .projects-image {
+  width: 300px;
+  border-radius: 16px;
+}
+
+footer {
+  background-color: #EBE1D9;
   text-align: center;
   padding: 20px;
   border-radius: 30px;
-  border: 1px solid #353A2C;
+  border: 1px solid #335533;
   margin-left: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -91,33 +117,4 @@ footer .social-media {
     margin-right: auto;
     font-size: 20px;
   }
-}
-body {
-  background-color: #353A2C;
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-main {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-main article {
-  border-radius: 10px;
-  overflow: hidden;
-  margin: 10px 0px;
-  background-color: #C9D4C6;
-  padding: 24px;
-  text-align: center;
-}
-main article section {
-  float: inline-start;
-}
-main article section .projects-image {
-  width: 300px;
-  border-radius: 16px;
 }/*# sourceMappingURL=projects.css.map */

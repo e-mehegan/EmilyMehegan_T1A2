@@ -6,8 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Emily Mehegan</title>
-        <link rel="stylesheet" href="../styles/index.css" />
-        <link rel="stylesheet" href="./styles/home.css" />
+        <!--<link rel="stylesheet" href="../styles/index.css" /> -->
+        <link rel="stylesheet" href="../styles/pages/contact.css" />
 
         <!-- Font Awesome link -->
         <link
@@ -35,9 +35,46 @@
             </nav>
         </header>
          
-<!--main contains heading text and image-->
+<!--main contains a form to send through, and contact information-->
         <main>
-            
+            <h1>Get in Touch!</h1>
+
+            <div class="contact-text">
+                <p>Emily Mehegan</p>
+                <p>Phone: 04040440404</p>
+                <p>Email:</p>
+                <p>abcde@hotmail.com</p>
+            </div>
+
+            <form>
+                <div class="form-elements">
+                    <label>Name: </label>
+                    <input class="form-input" />
+                </div>
+
+                <div class="form-elements">
+                    <label>Email: </label>
+                    <input class="form-input" />
+                </div>
+
+                <div class="form-elements">
+                    <label>Phone Number: </label>
+                    <input class="form-input" />
+                </div>
+
+                <div class="form-elements">
+                    <label>Message: </label>
+                    <textarea
+                        rows="3"
+                        class="form-input form-textarea"
+                    >
+                    </textarea>
+                </div>
+
+                <div class="btn-div">
+                    <button id="send">Send</button>
+                </div>
+            </form>
         </main>
 
 <!--Footer contains links to professional accounts-->
