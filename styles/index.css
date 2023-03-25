@@ -1,14 +1,4 @@
-/*@import "./components/header.scss";
-@import "./components/footer.scss";*/
-body {
-  background-color: #EBE1D9;
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
+@import "../defaults/color.css";
 header {
   background-color: #C9D4C6;
   text-align: center;
@@ -72,16 +62,6 @@ header .nav-items a:visited {
     text-align: center;
   }
 }
-main section .forest img {
-  height: 350px;
-  width: 100%;
-  margin-bottom: 20px;
-}
-main section .home-text {
-  font-size: 25px;
-  text-align: center;
-}
-
 footer {
   background-color: #C9D4C6;
   text-align: center;
@@ -114,9 +94,11 @@ footer .social-media {
     font-size: 20px;
   }
 }
-/*@media screen and (min-width: 1000px) {
-    footer {
-        margin-left: 300px;
-        margin-right: 300px;
-    }
-}*//*# sourceMappingURL=index.css.map */
+body {
+  background-color: #EBE1D9;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}/*# sourceMappingURL=index.css.map */
