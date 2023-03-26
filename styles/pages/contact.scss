@@ -1,81 +1,7 @@
 @import "../defaults/color";
 @import "../defaults/breakpoint";
-
-
-header {
-    background-color: $primary-background;
-    text-align: center;
-    padding: 20px;
-    border-radius: 30px;
-    border: 1px solid $secondary-color;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-
-    .nav-items {
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        font-size: 40px;
-    
-        .nav-about {
-            transition: 2s;
-            text-decoration: none;
-        }
-
-        .nav-about:hover {
-            transform: scale(1.1);
-        }
-
-        .nav-projects {
-            transition: 2s;
-            text-decoration: none;
-        }
-
-        .nav-projects:hover {
-            transform: scale(1.1);
-        }
-
-        .nav-blogs {
-            transition: 2s;
-            text-decoration: none;
-        }
-
-        .nav-blogs:hover {
-            transform: scale(1.1);
-        }
-
-        .nav-contact {
-            transition: 2s;
-            text-decoration: none;
-        }
-
-        .nav-contact:hover {
-            transform: scale(1.1);
-        }
-
-        a.nav-items {
-            color: black;
-    
-        }
-
-        a:visited {
-            color: $secondary-color;
-        }
-    }
-}
-
-@media screen and (max-width: $medium) {
-    header {
-        display: flex;
-        align-items: flex-end;
-
-        .nav-items {
-        font-size: 20px;
-        text-align: center;
-        }
-    }
-}
+@import "../components/headertwo";
+@import "../components/footertwo";
 
 body {
     background-color: $primary-color;
@@ -85,8 +11,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-
-
 
 
 main {
@@ -168,45 +92,4 @@ main {
     }
 }
 
-}
-
-
-
-
-
-
-footer {
-    background-color: $primary-background;
-    text-align: center;
-    padding: 20px;
-    border-radius: 30px;
-    border: 1px solid $secondary-color;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-
-
-    margin-left: 200px;
-    margin-right: 200px;
-
-    .social-media {
-        display: flex;
-        justify-content: space-around;
-        font-size: 25px;
-        transition: 2s;
-    }
-}
-
-@media screen and (max-width: $medium) {
-    footer {
-        margin-left: 100px;
-        margin-right: 100px;
-
-        .social-media {
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-            font-size: 20px;
-        }
-    }
 }

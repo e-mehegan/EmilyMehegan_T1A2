@@ -1,0 +1,78 @@
+@import "../defaults/color.css";
+@import "../defaults/breakpoint";
+
+
+header {
+    background-color: $primary-background;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid $secondary-color;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    .nav-items {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 40px;
+    
+        .nav-about {
+            transition: 2s;
+            text-decoration: none;
+        }
+
+        .nav-about:hover {
+            transform: scale(1.1);
+        }
+
+        .nav-projects {
+            transition: 2s;
+            text-decoration: none;
+        }
+
+        .nav-projects:hover {
+            transform: scale(1.1);
+        }
+
+        .nav-blogs {
+            transition: 2s;
+            text-decoration: none;
+        }
+
+        .nav-blogs:hover {
+            transform: scale(1.1);
+        }
+
+        .nav-contact {
+            transition: 2s;
+            text-decoration: none;
+        }
+
+        .nav-contact:hover {
+            transform: scale(1.1);
+        }
+
+        a.nav-items {
+            color: black;
+    
+        }
+
+        a:visited {
+            color: $secondary-color;
+        }
+    }
+}
+
+@media screen and (max-width: $medium) {
+    header {
+        display: flex;
+        align-items: flex-end;
+
+        .nav-items {
+        font-size: 20px;
+        text-align: center;
+        }
+    }
+}
