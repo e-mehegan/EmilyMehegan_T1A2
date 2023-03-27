@@ -93,7 +93,7 @@ footer .social-media {
   }
 }
 body {
-  background-image: linear-gradient(to bottom, #EBE1D9 0%, #EBE1D9 17%, #335533 0%, #335533 83%);
+  background-image: linear-gradient(to bottom, #EBE1D9 0%, #EBE1D9 15%, #335533 0%, #335533 85%);
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -103,7 +103,7 @@ body {
 
 @media screen and (max-width: 600px) {
   body {
-    background-image: linear-gradient(to bottom, #EBE1D9 0%, #EBE1D9 15%, #335533 0%, #335533 85%);
+    background-image: linear-gradient(to bottom, #EBE1D9 0%, #EBE1D9 5%, #335533 0%, #335533 95%);
   }
 }
 main {

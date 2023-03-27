@@ -1,3 +1,4 @@
+@import "../defaults/color.css";
 header {
   background-color: #EBE1D9;
   text-align: center;
@@ -57,6 +58,37 @@ header .nav-items a:visited {
   header .nav-items {
     font-size: 20px;
     text-align: center;
+  }
+}
+footer {
+  background-color: #EBE1D9;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid #335533;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  transition: 2s;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
   }
 }
 body {
@@ -123,37 +155,5 @@ main form .btn-div #send:hover {
   }
   main main form .form-elements .form-input {
     width: 100%;
-  }
-}
-
-footer {
-  background-color: #EBE1D9;
-  text-align: center;
-  padding: 20px;
-  border-radius: 30px;
-  border: 1px solid #335533;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-left: 200px;
-  margin-right: 200px;
-}
-footer .social-media {
-  display: flex;
-  justify-content: space-around;
-  font-size: 25px;
-  transition: 2s;
-}
-
-@media screen and (max-width: 600px) {
-  footer {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-  footer .social-media {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
   }
 }/*# sourceMappingURL=contact.css.map */
