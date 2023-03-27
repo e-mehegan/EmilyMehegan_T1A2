@@ -46,3 +46,16 @@ The target audience for this portfolio is employers looking for a freelance Fron
 
 ## Tech stack
 - insert examples here
+
+<br>
+
+# Links
+
+## Portfolio Link
+-
+
+## GitHub Link
+-
+
+## Presentation Link
+-
