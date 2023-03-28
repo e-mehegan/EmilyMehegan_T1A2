@@ -1,0 +1,217 @@
+/*These imports are all relative to make this page work*/ /*These are the main colours that are used thorugh-out the site*/ /*Breakpoints for screen sizes*/
+/*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
+@import "../defaults/color.css"; /*Breakpoints for screen sizes*/
+/*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
+/*A second header styling was needed since multiple pages and this one styling which is different to the homwpage css*/
+header {
+  background-color: #EBE1D9;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid #335533;
+  margin: 10px;
+}
+header .nav-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 40px;
+}
+header .nav-items .nav-about {
+  transition: 2s;
+  text-decoration: none;
+}
+header .nav-items .nav-about:hover {
+  transform: scale(1.1);
+}
+header .nav-items .nav-projects {
+  transition: 2s;
+  text-decoration: none;
+}
+header .nav-items .nav-projects:hover {
+  transform: scale(1.1);
+}
+header .nav-items .nav-blogs {
+  transition: 2s;
+  text-decoration: none;
+}
+header .nav-items .nav-blogs:hover {
+  transform: scale(1.1);
+}
+header .nav-items .nav-contact {
+  transition: 2s;
+  text-decoration: none;
+}
+header .nav-items .nav-contact:hover {
+  transform: scale(1.1);
+}
+header .nav-items a.nav-items {
+  color: black;
+}
+header .nav-items a:visited {
+  color: #335533;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: flex;
+    align-items: flex-end;
+  }
+  header .nav-items {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+/*These are the main colours that are used thorugh-out the site*/ /*Breakpoints for screen sizes*/
+/*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
+/*A second footer styling was needed since multiple pages and this one styling which is different to the homwpage css*/
+footer {
+  background-color: #EBE1D9;
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid #335533;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  transition: 2s;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  footer .social-media {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+  }
+}
+/*This is the body styling for this page*/
+body {
+  background-color: #C9D4C6;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*Main styling for the page*/
+main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+main .container {
+  width: 100%;
+  background: #C9D4C6;
+  padding: 20px 60px 40px 40px;
+}
+main .container .content {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+main .container .content .left-side {
+  width: 25%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .container .content .left-side .image {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  border-radius: 15px;
+}
+main .container .content .right-side {
+  width: 75%;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: #EBE1D9;
+  border-radius: 20px;
+  padding: 20px 60px 40px 40px;
+  box-shadow: 0px 5px 10px #335533;
+}
+main .container .content .right-side .about-text {
+  width: 75%;
+  margin-left: 75px;
+  margin-top: 20px;
+}
+main .container .content .right-side .about-text .name-title {
+  font-size: 50px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+}
+main .container .content .right-side .about-text .sub-heading {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+main .container .content .right-side .about-text .para-text {
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-bottom: 42px;
+}
+main .container .content .right-side .btn-div {
+  text-align: center;
+}
+main .container .content .right-side .btn-div #resume {
+  height: 60px;
+  min-width: 120px;
+  background-color: #C9D4C6;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+main .container .content .right-side .btn-div #resume:hover {
+  cursor: pointer;
+}
+
+/*This is the media screen for this page. It has its own widths since its structure is differnt to other pages and as its own pixel widths for when this need to be moved*/
+@media screen and (max-width: 1150px) {
+  .container {
+    width: 90%;
+    padding: 30px 35px 40px 35px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container {
+    margin: 40px 0;
+    height: 100%;
+  }
+  .container .content {
+    flex-direction: column-reverse;
+  }
+  .container .content .right-side {
+    width: 100%;
+    margin-left: 0;
+  }
+  .container .content .left-side {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 200px;
+  }
+}/*# sourceMappingURL=about.css.map */

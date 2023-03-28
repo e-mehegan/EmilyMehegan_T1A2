@@ -1,0 +1,146 @@
+/*These imports are all relative to make this page work*/
+
+@import "../defaults/color";
+@import "../defaults/breakpoint";
+@import "../components/headertwo";
+@import "../components/footertwo";
+
+/*This is the body styling for this page*/
+body {
+    background-color: $primary-color;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*Main styling for the page*/
+
+main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+        .container {
+            width: 100%;
+            background: $primary-color;
+            padding: 20px 60px 40px 40px;
+
+            .content {
+                display: flex;
+                align-items: start;
+                justify-content: center;
+
+                .left-side {
+                    width: 25%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .image {
+                        width: 500px;
+                        height: 300px;
+                        position: relative;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 150px;
+                        border-radius: 15px;
+                    }
+                }
+
+                .right-side {
+                    width: 75%;
+                    margin-left: 100px;
+                    margin-top: 20px;
+                    background-color: $primary-background;
+                    border-radius: 20px;
+                    padding: 20px 60px 40px 40px;
+                    box-shadow: 0px 5px 10px $secondary-color;
+
+                    .about-text {
+                        width: 75%;
+                        margin-left: 75px;
+                        margin-top: 20px;
+
+                        .name-title {
+                            font-size: 50px;
+                            margin-bottom: 10px;
+                            letter-spacing: 3px;
+                        }
+            
+                        .sub-heading {
+                            font-size: 30px;
+                            letter-spacing: 1px;
+                        }
+
+                        .para-text {
+                            line-height: 20px;
+                            letter-spacing: 1px;
+                            font-size: 18px;
+                            margin-bottom: 42px;
+                        }
+                    }
+
+                    .btn-div {
+                        text-align: center;
+                
+                        #resume {
+                            height: 60px;
+                            min-width: 120px;
+                            background-color: $primary-color;
+                            border-radius: 8px;
+                            border: none;
+                            outline:none;
+                            font-size: 1.2rem;
+                
+                            &:hover {
+                                cursor: pointer;
+                            }
+                        }
+                    }   
+                }
+            }
+        }
+    }
+
+
+/*This is the media screen for this page. It has its own widths since its structure is differnt to other pages and as its own pixel widths for when this need to be moved*/
+@media screen and (max-width: 1150px) {
+
+    .container {
+        width: 90%;
+        padding: 30px 35px 40px 35px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .container {
+        margin: 40px 0;
+        height: 100%;
+
+        .content {
+            flex-direction: column-reverse;
+
+            .right-side {
+            width: 100%;
+            margin-left: 0;
+            }
+
+            .left-side {
+                width: 100%;
+                flex-direction: column;
+                margin-top: 15px;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-right: 200px
+            }
+        }
+    } 
+}   
