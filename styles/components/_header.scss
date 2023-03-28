@@ -2,6 +2,8 @@
 @import "../defaults/breakpoint";
 @import "../components/utils";
 
+/*This is the main header for the website*/
+
 header {
     @include background-content();
 

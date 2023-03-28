@@ -2,6 +2,8 @@
 @import "../defaults/breakpoint";
 @import "../components/utils";
 
+/*This is the main footer styling for the website*/
+
 footer {
     @include background-content();
 

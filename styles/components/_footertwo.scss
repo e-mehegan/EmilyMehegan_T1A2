@@ -1,6 +1,8 @@
 @import "../defaults/color";
 @import "../defaults/breakpoint";
 
+/*A second footer styling was needed since multiple pages and this one styling which is different to the homwpage css*/
+
 footer {
     background-color: $primary-background;
     text-align: center;

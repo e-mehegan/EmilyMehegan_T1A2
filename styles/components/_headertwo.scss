@@ -1,6 +1,8 @@
 @import "../defaults/color.css";
 @import "../defaults/breakpoint";
 
+/*A second header styling was needed since multiple pages and this one styling which is different to the homwpage css*/
+
 
 header {
     background-color: $primary-background;
@@ -8,9 +10,7 @@ header {
     padding: 20px;
     border-radius: 30px;
     border: 1px solid $secondary-color;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 10px;
 
     .nav-items {
         width: 100%;

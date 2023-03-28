@@ -1,13 +1,15 @@
-@import "../defaults/color.css";
+/*These imports are all relative to make this page work*/ /*These are the main colours that are used thorugh-out the site*/ /*Breakpoints for screen sizes*/
+/*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
+@import "../defaults/color.css"; /*Breakpoints for screen sizes*/
+/*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
+/*A second header styling was needed since multiple pages and this one styling which is different to the homwpage css*/
 header {
   background-color: #EBE1D9;
   text-align: center;
   padding: 20px;
   border-radius: 30px;
   border: 1px solid #335533;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin: 10px;
 }
 header .nav-items {
   width: 100%;
@@ -60,6 +62,9 @@ header .nav-items a:visited {
     text-align: center;
   }
 }
+/*These are the main colours that are used thorugh-out the site*/ /*Breakpoints for screen sizes*/
+/*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
+/*A second footer styling was needed since multiple pages and this one styling which is different to the homwpage css*/
 footer {
   background-color: #EBE1D9;
   text-align: center;
@@ -91,6 +96,7 @@ footer .social-media {
     font-size: 20px;
   }
 }
+/*This is the body styling for this page*/
 body {
   background-color: #C9D4C6;
   margin: 0;
@@ -100,60 +106,128 @@ body {
   justify-content: space-between;
 }
 
-main .form-elements {
+/*This is the styling for the main section of the HTML doco. There are many componments to this styling*/
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .container {
+  width: 80%;
+  background: #EBE1D9;
+  border-radius: 10px;
+  padding: 20px 60px 40px 40px;
+  box-shadow: 0px 5px 10px #335533;
+}
+main .container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .container .content .left-side {
+  width: 25%;
+  height: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-main form {
-  margin-bottom: 50px;
+main .container .content .left-side .details {
+  margin: 14px;
+  text-align: center;
 }
-main form .form-elements {
+main .container .content .left-side .details .topic {
+  font-size: 25px;
+  font-weight: 600px;
+  color: #335533;
+}
+main .container .content .left-side .details .topic-name {
+  font-size: 30px;
+  font-weight: 600px;
+}
+main .container .content .right-side {
+  width: 75%;
+  margin-left: 75px;
+  margin-top: 20px;
+}
+main .container .content .right-side .heading-text {
+  font-size: 30px;
+  font-weight: 700;
+  color: #335533;
+  text-align: center;
+}
+main .container .content .right-side .message {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+main .container .content .right-side .form-elements {
   display: flex;
   flex-direction: column;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
-main form .form-elements label {
-  font-size: 1.6rem;
+main .container .content .right-side .form-elements label {
+  font-size: 1.3rem;
 }
-main form .form-elements .form-input {
+main .container .content .right-side .form-input {
+  height: 50px;
+  width: 100%;
   border: 1px solid #C9D4C6;
   border-radius: 4px;
   border-color: #335533;
   outline: none;
   font-size: 1.2rem;
 }
-main form .form-elements .form-input:not(.form-textarea) {
-  height: 50px;
-  width: 400px;
-}
-main form .form-elements .form-input.form-textarea {
+main .container .content .right-side .form-input.form-textarea {
   resize: none;
+  min-height: 110px;
 }
-main form .form-elements .form-input:focus {
+main .container .content .right-side .form-input:focus {
   box-shadow: 0 0 8px 3px #335533;
 }
-main form .btn-div {
+main .container .content .right-side .btn-div {
   text-align: center;
 }
-main form .btn-div #send {
+main .container .content .right-side .btn-div #send {
   height: 60px;
   min-width: 120px;
-  background-color: #EBE1D9;
+  background-color: #C9D4C6;
   border-radius: 8px;
   border: none;
   outline: none;
   font-size: 1.2rem;
 }
-main form .btn-div #send:hover {
+main .container .content .right-side .btn-div #send:hover {
   cursor: pointer;
 }
-@media screen and (min-width: 600px) {
-  main main form .form-elements {
-    flex-direction: row;
-    justify-content: space-between;
+
+/*This is the media screen for this page. It has its own widths since its structure is differnt to other pages and as its own pixel widths for when this need to be moved*/
+@media screen and (max-width: 750px) {
+  .container {
+    width: 90%;
+    padding: 30px 35px 40px 35px;
   }
-  main main form .form-elements .form-input {
+}
+@media screen and (max-width: 750px) {
+  .container {
+    margin: 40px 0;
+    height: 100%;
+  }
+  .container .content {
+    flex-direction: column-reverse;
+  }
+  .container .content .right-side {
     width: 100%;
+    margin-left: 0;
+  }
+  .container .content .left-side {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }/*# sourceMappingURL=contact.css.map */

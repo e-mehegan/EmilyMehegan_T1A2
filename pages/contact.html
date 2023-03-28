@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!--head element contains title of webpage with css link-->
+
+<!--head element contains title of webpage with css contact page link-->
+<!--Instead of linking the index.css page. ONly it's own page was linked since a large margority of the styling was different to the index-->
+
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Emily Mehegan</title>
-        <!--<link rel="stylesheet" href="../styles/index.css" /> -->
         <link rel="stylesheet" href="../styles/pages/contact.css" />
 
         <!-- Font Awesome link -->
@@ -20,7 +22,9 @@
     </head>
 
     <body>
-        <!--header contains the navigation bar for the website that link to other pages-->
+
+<!--header contains the navigation bar for the website that link to other pages-->
+
         <header>
             <nav class="nav-items">
                 <div class="bamboo-home">
@@ -36,48 +40,69 @@
         </header>
          
 <!--main contains a form to send through, and contact information-->
+
         <main>
-            <h1>Get in Touch!</h1>
 
-            <div class="contact-text">
-                <p>Emily Mehegan</p>
-                <p>Phone: 04040440404</p>
-                <p>Email:</p>
-                <p>abcde@hotmail.com</p>
+<!--The left-side class contains contact information and icons so that the viewer has access to either phone or email is the don't want to fill out the form-->
+
+            <div class="container">
+                <div class="content">
+                    <div class="left-side">
+
+                        <div class="details">
+                            <div class="topic-name">Emily Mehegan</div>
+                        </div>
+
+                        <div class="details">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="topic">Phone</div>
+                            <div class="text-one">0404044040</div>
+                        </div>
+
+                        <div class="details">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="topic">Email</div>
+                            <div class="text-one">14220@coderacademy.edu.au</div>
+                        </div>
+                    </div>
+
+<!--The right-side class contains the form that the viewer can fill out and send-->
+
+                    <div class="right-side">
+                            <div class="heading-text">Get in Touch!</div>
+                            <div class="message">Send me a message for any enquires or questions. Happy to have a chat!</div>
+                        
+                        <form>
+                            <div class="form-elements">
+                                <label>Name: </label>
+                                <input class="form-input" />
+                            </div>
+            
+                            <div class="form-elements">
+                                <label>Email: </label>
+                                <input class="form-input" />
+                            </div>
+            
+                            <div class="form-elements">
+                                <label>Message: </label>
+                                <textarea
+                                    rows="3"
+                                    class="form-input form-textarea"
+                                >
+                                </textarea>
+                            </div>
+            
+                            <div class="btn-div">
+                                <button id="send">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-
-            <form>
-                <div class="form-elements">
-                    <label>Name: </label>
-                    <input class="form-input" />
-                </div>
-
-                <div class="form-elements">
-                    <label>Email: </label>
-                    <input class="form-input" />
-                </div>
-
-                <div class="form-elements">
-                    <label>Phone Number: </label>
-                    <input class="form-input" />
-                </div>
-
-                <div class="form-elements">
-                    <label>Message: </label>
-                    <textarea
-                        rows="3"
-                        class="form-input form-textarea"
-                    >
-                    </textarea>
-                </div>
-
-                <div class="btn-div">
-                    <button id="send">Send</button>
-                </div>
-            </form>
         </main>
 
 <!--Footer contains links to professional accounts-->
+
         <footer>
             <div class="social-media">
                 <a href="https://www.github.com" target="_blank">

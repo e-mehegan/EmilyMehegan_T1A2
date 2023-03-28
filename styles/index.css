@@ -1,13 +1,14 @@
-@import "../defaults/color.css";
+/*Main styling for the website used on the home page*/ /*These are the main colours that are used thorugh-out the site*/
+@import "../defaults/color.css"; /*Breakpoints for screen sizes*/
+/*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
+/*This is the main header for the website*/
 header {
   background-color: #C9D4C6;
   text-align: center;
   padding: 20px;
   border-radius: 30px;
   border: 1px solid #335533;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin: 10px;
 }
 header .nav-items {
   width: 100%;
@@ -60,15 +61,16 @@ header .nav-items a:visited {
     text-align: center;
   }
 }
+/*These are the main colours that are used thorugh-out the site*/ /*Breakpoints for screen sizes*/
+/*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
+/*This is the main footer styling for the website*/
 footer {
   background-color: #C9D4C6;
   text-align: center;
   padding: 20px;
   border-radius: 30px;
   border: 1px solid #335533;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin: 10px;
   margin-left: 200px;
   margin-right: 200px;
 }
