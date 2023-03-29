@@ -1,14 +1,10 @@
 @import "../defaults/color";
 @import "../components/header";
 @import "../components/footer";
+@import "../components/utilsthree";
 
 body {
-    background-color: $primary-background;
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    @include body-content-two();
 }
 
 main {
