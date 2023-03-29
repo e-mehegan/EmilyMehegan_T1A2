@@ -1,7 +1,6 @@
 /*These imports are all relative to make this page work*/
 
 @import "../defaults/color";
-@import "../defaults/breakpoint";
 @import "../components/headertwo";
 @import "../components/footertwo";
 
@@ -87,20 +86,18 @@ main {
                         }
                     }
 
-                    .btn-div {
+                    .resume-div {
                         text-align: center;
                 
-                        #resume {
+                        .resume {
                             height: 60px;
                             min-width: 120px;
-                            background-color: $primary-color;
-                            border-radius: 8px;
-                            border: none;
-                            outline:none;
-                            font-size: 1.2rem;
-                
+                            font-size: 40px;
+                            color: $secondary-color;
+
                             &:hover {
                                 cursor: pointer;
+                                color: black;
                             }
                         }
                     }   

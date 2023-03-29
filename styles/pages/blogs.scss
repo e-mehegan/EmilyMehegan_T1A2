@@ -1,8 +1,8 @@
-@import "../defaults/color.scss";
-@import "../components/utils";
+@import "../defaults/color";
 @import "../components/header";
 @import "../components/footer";
 
+/*Blogs body styling is different to all other bodys since the screen is split with two colours*/
 body {
     background-image: linear-gradient(to bottom, $primary-background 0%, $primary-background 15%, $secondary-color 0%, $secondary-color 85%);
     margin: 0;
@@ -18,6 +18,8 @@ body {
     }
 }
 
+
+/*Grid is used to style this page to make text clear for the blog page*/
 main {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;

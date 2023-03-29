@@ -94,6 +94,7 @@ footer .social-media {
     font-size: 20px;
   }
 }
+/*Blogs body styling is different to all other bodys since the screen is split with two colours*/
 body {
   background-image: linear-gradient(to bottom, #EBE1D9 0%, #EBE1D9 15%, #335533 0%, #335533 85%);
   margin: 0;
@@ -108,6 +109,7 @@ body {
     background-image: linear-gradient(to bottom, #EBE1D9 0%, #EBE1D9 5%, #335533 0%, #335533 95%);
   }
 }
+/*Grid is used to style this page to make text clear for the blog page*/
 main {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;

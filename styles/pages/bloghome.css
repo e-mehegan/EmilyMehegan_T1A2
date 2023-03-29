@@ -1,9 +1,9 @@
 /*These are the main colours that are used thorugh-out the site*/
 @import "../defaults/color.css"; /*Breakpoints for screen sizes*/
 /*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
-/*A second header styling was needed since multiple pages and this one styling which is different to the homwpage css*/
+/*This is the main header for the website*/
 header {
-  background-color: #EBE1D9;
+  background-color: #C9D4C6;
   text-align: center;
   padding: 20px;
   border-radius: 30px;
@@ -63,16 +63,14 @@ header .nav-items a:visited {
 }
 /*These are the main colours that are used thorugh-out the site*/ /*Breakpoints for screen sizes*/
 /*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
-/*A second footer styling was needed since multiple pages and this one styling which is different to the homwpage css*/
+/*This is the main footer styling for the website*/
 footer {
-  background-color: #EBE1D9;
+  background-color: #C9D4C6;
   text-align: center;
   padding: 20px;
   border-radius: 30px;
   border: 1px solid #335533;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin: 10px;
   margin-left: 200px;
   margin-right: 200px;
 }
@@ -81,6 +79,7 @@ footer .social-media {
   justify-content: space-around;
   font-size: 25px;
   transition: 2s;
+  color: black;
 }
 
 @media screen and (max-width: 600px) {
@@ -95,9 +94,8 @@ footer .social-media {
     font-size: 20px;
   }
 }
-/*Projects body styling is different to all other body due to background color*/
 body {
-  background-color: #335533;
+  background-color: #EBE1D9;
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -110,15 +108,33 @@ main {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+main .topic-name {
+  font-size: 30px;
+  font-weight: 600px;
+  text-align: center;
+}
 main article {
   border-radius: 10px;
   overflow: hidden;
-  margin: 10px 0px;
+  margin: 10px;
+  margin-top: 50px;
   background-color: #C9D4C6;
   padding: 24px;
   text-align: center;
+  box-shadow: 0 0 8px 3px #335533;
 }
-main article section .projects-image {
+main article section .blog-image {
   width: 300px;
+  height: 200px;
   border-radius: 16px;
-}/*# sourceMappingURL=projects.css.map */
+}
+main article section .blog-post-link {
+  height: 60px;
+  min-width: 120px;
+  background-color: #EBE1D9;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  text-decoration: none;
+}/*# sourceMappingURL=bloghome.css.map */

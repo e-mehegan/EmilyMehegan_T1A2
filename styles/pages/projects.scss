@@ -1,8 +1,8 @@
 @import "../defaults/color";
-@import "../defaults/breakpoint";
 @import "../components/headertwo";
 @import "../components/footertwo";
 
+/*Projects body styling is different to all other body due to background color*/
 body {
     background-color: $secondary-color;
     margin: 0;

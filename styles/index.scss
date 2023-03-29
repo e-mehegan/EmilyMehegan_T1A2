@@ -1,9 +1,8 @@
 /*Main styling for the website used on the home page*/
 
-@import "./defaults/color";
-@import "./components/utils";
-@import "./components/header";
-@import "./components/footer";
+@import "../styles/defaults/color";
+@import "../components/header";
+@import "../components/footer";
 
 body {
     background-color: $primary-background;
