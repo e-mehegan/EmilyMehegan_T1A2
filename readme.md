@@ -54,6 +54,32 @@ The purpose of the website is to display a portfolio advertising personal skills
 
 - For ther CSS on this page a div container with left-side and right-side divs was used to be able to effectively move the content with in the page around by dividing this content. 
 
+```html
+<section>
+                <div class="container">
+                    <div class="content">
+
+                        <div class="left-side">
+                            <img class="image" src="../images/about-image.jpg">
+                        </div>
+
+                        <div class="right-side">
+                            <div class="about-text">
+                                <h2 class="name-title">Emily Mehegan</h1>
+                                <h4 class="sub-heading">Designer & Developer</h4>
+                                <p class="para-text">Hello! I'm a Front-End and Back-end Developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit accusantium explicabo consectetur eveniet repellat. Veritatis optio quo ipsam. Doloribus, nam dolor? Soluta fuga possimus corporis a enim quasi ipsum perspiciatis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi earum labore maxime soluta cumque odio, inventore nam quisquam, obcaecati qui iste asperiores enim ad omnis mollitia, perspiciatis eos doloribus repellat?</p>
+                            </div>
+
+                            <div class="resume-div">
+                                <a class="resume" href="../documents/resume.pdf">Resume</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+```
+
 - This page has it's own screen size styling to effectivly move and utilise the space at those sizes.
 
 ## Projects Page:
@@ -78,7 +104,34 @@ The purpose of the website is to display a portfolio advertising personal skills
 
 - The blogs utalise a CSS Grid styling. This was the clearest way to display each blog post and provide a neat and aesthietically pleasing page for the viewer to read each blog. Each blog post has a clear title in the top middle of the page. Just before each blog post in the date. All information is clearly displayed on each of the pages.
 
-- The back-ground of the blog pages is different to each of the other website pages. Two background colours are used to achieve this by spliting the background colour into to seperate colours. For the background colour, sizes where changed in order to display the page properly across the three screen sizes. Three main colours where used to seperate part of the page to achieve an aethetically pleasing and neat blog page. 
+```scss
+main {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 100px 50px 1fr;
+
+    margin-bottom: 50px;
+
+    .blog-heading {
+        background-color: $primary-color;
+        grid-column: 1 / -1;
+        grid-row: 1 / 3;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .date {
+        background-color: $primary-background;
+        padding: 20px;
+        grid-column: 2 / 3;
+        grid-row: 2 / -1;
+    }
+}
+```
+
+- The back-ground of the blog pages is different to each of the other website pages. Two background colours are used to achieve this by spliting the background colour into to seperate colours. For the background colour, sizes where changed in order to display the page properly across the three screen sizes. Three main colours where used to seperate part of the page to achieve an aethetically pleasing and neat blog page.
+
 
 ## Contacts Page:
 - The contacts page contains a form that invites people to send a message. The page also contains contact information and a call to 'Get in Touch!'. This is presented in the draker green to draw attention of the text. Below is another message letting people know that they are able to contact me for anything professional or casual. This invites many people from a professional standpoint (employer), or even invite others who work in the industry to aid in networking with other developers and designers.
@@ -93,26 +146,89 @@ The purpose of the website is to display a portfolio advertising personal skills
 
 - Contacts page has a container div with left-side and right-side div to help styling and separate the form and contact info.
 
+```html
+<div class="container">
+                <div class="content">
+                    <div class="left-side">
+
+                        <div class="details">
+                            <div class="topic-name">Emily Mehegan</div>
+                        </div>
+
+                        <div class="details">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="topic">Phone</div>
+                            <div class="text-one">0404044040</div>
+                        </div>
+
+                        <div class="details">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="topic">Email</div>
+                            <div class="text-one">14220@coderacademy.edu.au</div>
+                        </div>
+                    </div>
+
+<!--The right-side class contains the form that the viewer can fill out and send-->
+
+                    <div class="right-side">
+                            <div class="heading-text">Get in Touch!</div>
+                            <div class="message">Send me a message for any enquires or questions. Happy to have a chat!</div>
+                        
+                        <form>
+                            <div class="form-elements">
+                                <label>Name: </label>
+                                <input class="form-input" />
+                            </div>
+            
+                            <div class="form-elements">
+                                <label>Email: </label>
+                                <input class="form-input" />
+                            </div>
+            
+                            <div class="form-elements">
+                                <label>Message: </label>
+                                <textarea
+                                    rows="3"
+                                    class="form-input form-textarea"
+                                >
+                                </textarea>
+                            </div>
+            
+                            <div class="btn-div">
+                                <button id="send">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+```
+
 
 <br>
 <br>
 <br>
 
-## Sitemap
+# Sitemap
 The following is the sitemap of the original layout of the website. 
 
-- The 'Portfolio' page was later changed to 'Projects'.
+![Sitemap](./images/sitemap.png "Sitemap Image")
 
-insert image
+<br>
+<br>
 
-## Screenshots
+# Screenshots
 - insert screenshot of site
 
 ## Target audience
 The target audience for this portfolio is employers looking for a freelance front-end and back-end developer. It is also welcoming for people wanting to ask any questions and invites people who want to network with other developers and designers. This is emphasised through the form and text on the contact page.
 
 ## Tech stack
-- insert examples here
+
+- HTML
+- CSS
+- SASS
+- Netlify
+- GitHub
 
 <br>
 
