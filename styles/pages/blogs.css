@@ -1,7 +1,5 @@
 /*These are the main colours that are used thorugh-out the site*/
-@import "../defaults/color.css"; /*Breakpoints for screen sizes*/
-/*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
-/*This is the content that is used in the header*/
+@import "../defaults/color.css"; /*Breakpoints for screen sizes*/ /*This is the content that is used in the header*/
 /*This is the main header for the website*/
 header {
   background-color: #C9D4C6;
@@ -16,6 +14,9 @@ header .nav-items {
   display: flex;
   justify-content: space-around;
   font-size: 40px;
+}
+header .nav-items a {
+  color: black;
 }
 header .nav-items .nav-about {
   transition: 2s;
@@ -45,9 +46,6 @@ header .nav-items .nav-contact {
 header .nav-items .nav-contact:hover {
   transform: scale(1.1);
 }
-header .nav-items a.nav-items {
-  color: black;
-}
 header .nav-items a:visited {
   color: #335533;
 }
@@ -62,9 +60,7 @@ header .nav-items a:visited {
     text-align: center;
   }
 }
-/*These are the main colours that are used thorugh-out the site*/ /*Breakpoints for screen sizes*/
-/*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
-/*This is the content that is used in the header*/
+/*These are the main colours that are used thorugh-out the site*/ /*Breakpoints for screen sizes*/ /*This is the content that is used in the header*/
 /*This is the main footer styling for the website*/
 footer {
   background-color: #C9D4C6;

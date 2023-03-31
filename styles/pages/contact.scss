@@ -130,19 +130,14 @@ main {
 
 
 /*This is the media screen for this page. It has its own widths since its structure is differnt to other pages and as its own pixel widths for when this need to be moved*/
-@media screen and (max-width: 750px) {
-
-    .container {
-        width: 90%;
-        padding: 30px 35px 40px 35px;
-    }
-}
 
 @media screen and (max-width: 750px) {
 
     .container {
         margin: 40px 0;
         height: 100%;
+        width: 90%;
+        padding: 30px 35px 40px 35px;
 
         .content {
             flex-direction: column-reverse;

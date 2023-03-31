@@ -1,6 +1,5 @@
 /*These imports are all relative to make this page work*/ /*These are the main colours that are used thorugh-out the site*/
 @import "../defaults/color.css"; /*Breakpoints for screen sizes*/
-/*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
 /*A second header styling was needed since multiple pages and this one styling which is different to the homwpage css*/
 header {
   background-color: #EBE1D9;
@@ -62,7 +61,6 @@ header .nav-items a:visited {
   }
 }
 /*These are the main colours that are used thorugh-out the site*/ /*Breakpoints for screen sizes*/
-/*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
 /*A second footer styling was needed since multiple pages and this one styling which is different to the homwpage css*/
 footer {
   background-color: #EBE1D9;
@@ -209,14 +207,10 @@ main .container .content .right-side .btn-div #send:hover {
 /*This is the media screen for this page. It has its own widths since its structure is differnt to other pages and as its own pixel widths for when this need to be moved*/
 @media screen and (max-width: 750px) {
   .container {
-    width: 90%;
-    padding: 30px 35px 40px 35px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .container {
     margin: 40px 0;
     height: 100%;
+    width: 90%;
+    padding: 30px 35px 40px 35px;
   }
   .container .content {
     flex-direction: column-reverse;

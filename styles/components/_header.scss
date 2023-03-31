@@ -12,6 +12,10 @@ header {
         display: flex;
         justify-content: space-around;
         font-size: 40px;
+
+        a {
+            color: black;
+        }
     
         .nav-about {
             transition: 2s;
@@ -47,11 +51,6 @@ header {
 
         .nav-contact:hover {
             transform: scale(1.1);
-        }
-
-        a.nav-items {
-            color: black;
-    
         }
 
         a:visited {

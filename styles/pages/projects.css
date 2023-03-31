@@ -1,6 +1,5 @@
 /*These are the main colours that are used thorugh-out the site*/
 @import "../defaults/color.css"; /*Breakpoints for screen sizes*/
-/*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
 /*A second header styling was needed since multiple pages and this one styling which is different to the homwpage css*/
 header {
   background-color: #EBE1D9;
@@ -62,7 +61,6 @@ header .nav-items a:visited {
   }
 }
 /*These are the main colours that are used thorugh-out the site*/ /*Breakpoints for screen sizes*/
-/*These are sizes that are often used to chage, some css pages have there own widths due to the content and styling of the main body*/
 /*A second footer styling was needed since multiple pages and this one styling which is different to the homwpage css*/
 footer {
   background-color: #EBE1D9;

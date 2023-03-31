@@ -4,6 +4,7 @@
 @import "../components/headertwo";
 @import "../components/footertwo";
 @import "../components/utilstwo";
+@import "../defaults/breakpoint";
 
 /*This is the body styling for this page*/
 body {
@@ -13,21 +14,22 @@ body {
 /*Main styling for the page*/
 
 main {
-    width: 1130px;
+    width: 90%;
     max-width: 95%;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 
         .container {
             width: 100%;
             background: $primary-color;
-            padding: 20px 60px 40px 40px;
+            margin-bottom: 10px;
 
             .content {
                 display: flex;
                 align-items: start;
-                justify-content: center;
+                justify-content: space-around;
 
                 .left-side {
                     width: 25%;
@@ -50,12 +52,12 @@ main {
                 }
 
                 .right-side {
-                    width: 75%;
-                    margin-left: 100px;
+                    width: 70%;
+                    margin-left: 75px;
                     margin-top: 20px;
                     background-color: $primary-background;
                     border-radius: 20px;
-                    padding: 20px 60px 40px 40px;
+                    padding: 20px 50px 40px 40px;
                     box-shadow: 0px 5px 10px $secondary-color;
 
                     .about-text {
@@ -103,37 +105,22 @@ main {
     }
 
 
-/*This is the media screen for this page. It has its own widths since its structure is differnt to other pages and as its own pixel widths for when this need to be moved*/
-@media screen and (max-width: 1150px) {
+
+@media screen and (max-width: $large) {
 
     .container {
+        height: 90%;
         width: 90%;
-        padding: 30px 35px 40px 35px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-
-    .container {
-        margin: 40px 0;
-        height: 100%;
 
         .content {
             flex-direction: column-reverse;
-
-            .right-side {
-            width: 100%;
-            margin-left: 0;
-            }
+            justify-content: flex-end;
 
             .left-side {
-                width: 100%;
-                flex-direction: column;
-                margin-top: 15px;
-                justify-content: center;
-                flex-wrap: wrap;
-                margin-right: 200px
+                margin-left: 300px;
             }
+
         }
-    } 
-}   
+    }
+}
+
