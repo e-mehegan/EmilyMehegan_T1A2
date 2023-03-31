@@ -77,7 +77,12 @@ footer .social-media {
   justify-content: space-around;
   font-size: 25px;
   transition: 2s;
+}
+footer .social-media a {
   color: black;
+}
+footer .social-media a:visited {
+  color: #335533;
 }
 
 @media screen and (max-width: 600px) {
@@ -92,9 +97,9 @@ footer .social-media {
     font-size: 20px;
   }
 }
-/*Blogs body styling is different to all other bodys since the screen is split with two colours*/
+/*Blogs body styling is different to all other bodys since the screen is split with two colours. The specific sizes are needed to make sure that the colours are in the right */
 body {
-  background-image: linear-gradient(to bottom, #EBE1D9 0%, #EBE1D9 15%, #335533 0%, #335533 85%);
+  background-image: linear-gradient(to bottom, #EBE1D9 0%, #EBE1D9 13%, #335533 0%, #335533 87%);
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -102,9 +107,9 @@ body {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 430px) {
   body {
-    background-image: linear-gradient(to bottom, #EBE1D9 0%, #EBE1D9 5%, #335533 0%, #335533 95%);
+    background-image: linear-gradient(to bottom, #EBE1D9 0%, #EBE1D9 4%, #335533 0%, #335533 96%);
   }
 }
 /*Grid is used to style this page to make text clear for the blog page*/

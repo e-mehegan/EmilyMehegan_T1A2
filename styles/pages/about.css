@@ -80,6 +80,12 @@ footer .social-media {
   font-size: 25px;
   transition: 2s;
 }
+footer .social-media a {
+  color: black;
+}
+footer .social-media a:visited {
+  color: #335533;
+}
 
 @media screen and (max-width: 600px) {
   footer {
@@ -185,10 +191,6 @@ main .container .content .right-side .resume-div .resume:hover {
 }
 
 @media screen and (max-width: 1000px) {
-  .container {
-    height: 90%;
-    width: 90%;
-  }
   .container .content {
     flex-direction: column-reverse;
     justify-content: flex-end;

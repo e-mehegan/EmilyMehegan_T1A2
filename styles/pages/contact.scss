@@ -17,6 +17,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
 /* Container helps break up the sections to aid in the styling */
 
@@ -144,7 +145,7 @@ main {
 
             .right-side {
             width: 100%;
-            margin-left: 0;
+            margin-right: 70px;
             }
 
             .left-side {
@@ -153,6 +154,7 @@ main {
                 margin-top: 40px;
                 justify-content: center;
                 flex-wrap: wrap;
+                margin-right: 140px;
             }
         }
     } 

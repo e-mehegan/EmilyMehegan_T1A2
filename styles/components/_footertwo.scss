@@ -22,6 +22,14 @@ footer {
         justify-content: space-around;
         font-size: 25px;
         transition: 2s;
+
+        a {
+            color: black
+        }
+
+        a:visited {
+            color: $secondary-color;
+        }
     }
 }
 

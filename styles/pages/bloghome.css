@@ -77,7 +77,12 @@ footer .social-media {
   justify-content: space-around;
   font-size: 25px;
   transition: 2s;
+}
+footer .social-media a {
   color: black;
+}
+footer .social-media a:visited {
+  color: #335533;
 }
 
 @media screen and (max-width: 600px) {

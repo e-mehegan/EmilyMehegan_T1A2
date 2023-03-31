@@ -80,6 +80,12 @@ footer .social-media {
   font-size: 25px;
   transition: 2s;
 }
+footer .social-media a {
+  color: black;
+}
+footer .social-media a:visited {
+  color: #335533;
+}
 
 @media screen and (max-width: 600px) {
   footer {
@@ -217,7 +223,7 @@ main .container .content .right-side .btn-div #send:hover {
   }
   .container .content .right-side {
     width: 100%;
-    margin-left: 0;
+    margin-right: 70px;
   }
   .container .content .left-side {
     width: 100%;
@@ -225,5 +231,6 @@ main .container .content .right-side .btn-div #send:hover {
     margin-top: 40px;
     justify-content: center;
     flex-wrap: wrap;
+    margin-right: 140px;
   }
 }/*# sourceMappingURL=contact.css.map */

@@ -2,9 +2,9 @@
 @import "../components/header";
 @import "../components/footer";
 
-/*Blogs body styling is different to all other bodys since the screen is split with two colours*/
+/*Blogs body styling is different to all other bodys since the screen is split with two colours. The specific sizes are needed to make sure that the colours are in the right */
 body {
-    background-image: linear-gradient(to bottom, $primary-background 0%, $primary-background 15%, $secondary-color 0%, $secondary-color 85%);
+    background-image: linear-gradient(to bottom, $primary-background 0%, $primary-background 13%, $secondary-color 0%, $secondary-color 87%);
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -12,11 +12,15 @@ body {
     justify-content: space-between;
 }
 
-@media screen and (max-width: $medium) {
+@media screen and (max-width: 430px) {
     body {
-    background-image: linear-gradient(to bottom, $primary-background 0%, $primary-background 5%, $secondary-color 0%, $secondary-color 95%);
+    background-image: linear-gradient(to bottom, $primary-background 0%, $primary-background 4%, $secondary-color 0%, $secondary-color 96%);
     }
 }
+
+
+
+
 
 
 /*Grid is used to style this page to make text clear for the blog page*/

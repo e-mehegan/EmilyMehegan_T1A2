@@ -109,8 +109,6 @@ main {
 @media screen and (max-width: $large) {
 
     .container {
-        height: 90%;
-        width: 90%;
 
         .content {
             flex-direction: column-reverse;
@@ -123,4 +121,5 @@ main {
         }
     }
 }
+
 
