@@ -7,6 +7,9 @@ body {
     @include body-content-two();
 }
 
+/*This is the main body styling for the Blogs page*/
+/*The articles are styled to stand out against the background colour*/
+
 main {
     display: flex;
     justify-content: space-around;

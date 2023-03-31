@@ -96,6 +96,7 @@ footer .social-media {
     font-size: 20px;
   }
 }
+/*This is the second body content two that is used on multiple pages of the site*/
 body {
   background-color: #EBE1D9;
   margin: 0;
@@ -105,6 +106,8 @@ body {
   justify-content: space-between;
 }
 
+/*This is the main body styling for the Blogs page*/
+/*The articles are styled to stand out against the background colour*/
 main {
   display: flex;
   justify-content: space-around;

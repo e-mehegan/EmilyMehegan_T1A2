@@ -18,6 +18,8 @@ main {
     align-items: center;
     justify-content: center;
 
+/* Container helps break up the sections to aid in the styling */
+
         .container {
             width: 80%;
             background: $primary-background;
@@ -74,7 +76,7 @@ main {
                         margin-top: 5px;
                         margin-bottom: 5px;
                     }
-
+/*This styling is for the form element on the page and effects are added to help emphasis and establish different parts of the HTML*/
                     .form-elements {
                         display: flex;
                         flex-direction: column;

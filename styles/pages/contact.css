@@ -95,6 +95,7 @@ footer .social-media {
     font-size: 20px;
   }
 }
+/*This is the first body content that is used multiple time through-out the site*/
 /*This is the body styling for this page*/
 body {
   background-color: #C9D4C6;
@@ -111,6 +112,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Container helps break up the sections to aid in the styling */
 }
 main .container {
   width: 80%;
@@ -150,6 +152,7 @@ main .container .content .right-side {
   width: 75%;
   margin-left: 75px;
   margin-top: 20px;
+  /*This styling is for the form element on the page and effects are added to help emphasis and establish different parts of the HTML*/
 }
 main .container .content .right-side .heading-text {
   font-size: 30px;
