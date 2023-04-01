@@ -19,28 +19,24 @@ header .nav-items a {
   color: black;
 }
 header .nav-items .nav-about {
-  transition: 2s;
   text-decoration: none;
 }
 header .nav-items .nav-about:hover {
   transform: scale(1.1);
 }
 header .nav-items .nav-projects {
-  transition: 2s;
   text-decoration: none;
 }
 header .nav-items .nav-projects:hover {
   transform: scale(1.1);
 }
 header .nav-items .nav-blogs {
-  transition: 2s;
   text-decoration: none;
 }
 header .nav-items .nav-blogs:hover {
   transform: scale(1.1);
 }
 header .nav-items .nav-contact {
-  transition: 2s;
   text-decoration: none;
 }
 header .nav-items .nav-contact:hover {
