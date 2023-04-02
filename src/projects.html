@@ -7,10 +7,10 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>EM - About</title>
-        <link rel="stylesheet" href="../styles/pages/about.css" />
+        <title>EM - Projects</title>
+        <link rel="stylesheet" href="../src/styles/pages/projects.css" />
 
-<!-- Font Awesome style link -->
+        <!-- Font Awesome link -->
 
         <link
             rel="stylesheet"
@@ -23,12 +23,12 @@
 
     <body>
 
-<!--header contains the navigation bar for the website that link to other pages-->
+<!--header contains the navigation bar for the website that link to other pages and bamboo icon image that links to the home page-->
 
         <header>
             <nav class="nav-items">
                 <div class="bamboo-home">
-                    <a href="../index.html">
+                    <a href="./index.html">
                         <img src="../docs/images/bamboo.png" alt="Bamboo Home" />
                     </a>
                 </div>
@@ -39,32 +39,45 @@
             </nav>
         </header>
          
-<!--Section has a container div that is split into the left-side and right-side to help divide the written content and image. This aids the CSS styling-->
+<!--main contains image for projects and heading for each one-->
 
         <main>
-            <section>
-                <div class="container">
-                    <div class="content">
+            <article>
+                <section>
+                    <img class="projects-image" src="../docs/images/buildproject.jpg" alt="Build Project" />
+                </section>
+                <section>
+                    <h3>Website Building Project</h3>
+                </section>
+            </article>
 
-                        <div class="left-side">
-                            <img class="image" src="../docs/images/about-image.jpg">
-                        </div>
+            <article>
+                <section>
+                    <img class="projects-image" src="../docs/images/designproject.jpg" alt="Web Design" />
+                </section>
+                <section>
+                    <h3>Web Design Project</h3>
+                </section>
+            </article>
 
-                        <div class="right-side">
-                            <div class="about-text">
-                                <h2 class="name-title">Emily Mehegan</h1>
-                                <h4 class="sub-heading">Designer & Developer</h4>
-                                <p class="para-text">Hello! I'm a Front-End and Back-end Developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit accusantium explicabo consectetur eveniet repellat. Veritatis optio quo ipsam. Doloribus, nam dolor? Soluta fuga possimus corporis a enim quasi ipsum perspiciatis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi earum labore maxime soluta cumque odio, inventore nam quisquam, obcaecati qui iste asperiores enim ad omnis mollitia, perspiciatis eos doloribus repellat?</p>
-                            </div>
+            <article>
+                <section>
+                    <img class="projects-image" src="../docs/images/droneproject.jpg" alt="Drone Coding" />
+                </section>
+                <section>
+                    <h3>Drone Coding Project</h3>
+                </section>
+            </article>
 
-                            <div class="resume-div">
-                                <a class="resume" href="../docs/resume.pdf">Resume</a>
-                            </div>
-                        </div>
+            <article>
+                <section>
+                    <img class="projects-image" src="../docs/images/webproject.jpg" alt="Full Scale Project" />
+                </section>
+                <section>
+                    <h3>Full Scale Web Project</h3>
+                </section>
+            </article>
 
-                    </div>
-                </div>
-            </section>
         </main>
 
 <!--Footer contains links to professional accounts-->
