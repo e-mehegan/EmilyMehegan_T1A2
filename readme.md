@@ -211,7 +211,7 @@ main {
 # Sitemap
 The following is the sitemap of the original layout of the website. 
 
-![Sitemap](./images/sitemap.png "Sitemap Image")
+![Sitemap](./docs/images/sitemap.png "Sitemap Image")
 
 <br>
 <br>
@@ -222,68 +222,68 @@ The following is the sitemap of the original layout of the website.
  ## Home Page
 
  ### Desktop View
-![Desktop-Home](./images/readme%20screenshots/desktop-home.png "Home Page Desktop View")
+![Desktop-Home](./docs/images/readme-screenshots/desktop-home.png "Home Page Desktop View")
 
 ### Tablet View
-![Tablet-Home](./images/readme%20screenshots/tablet-home.png "Home Page Tablet View")
+![Tablet-Home](./docs/images/readme-screenshots/tablet-home.png "Home Page Tablet View")
 
 ### Mobile View
-![Mobile-Home](./images/readme%20screenshots/mobile-home.png "Home Page Mobile View")
+![Mobile-Home](./docs/images/readme-screenshots/mobile-home.png "Home Page Mobile View")
 
 ## About Page
 
 ### Desktop View
-![Desktop-About](./images/readme%20screenshots/desktop-about.png "About Page Desktop View")
+![Desktop-About](./docs/images/readme-screenshots/desktop-about.png "About Page Desktop View")
 
 ### Tablet View
-![Tablet-About](./images/readme%20screenshots/tablet-about.png "About Page Tablet View")
+![Tablet-About](./docs/images/readme-screenshots/tablet-about.png "About Page Tablet View")
 
 ### Mobile View
-![Mobile-About](./images/readme%20screenshots/mobile-about.png "About Page Mobile View")
+![Mobile-About](./docs/images/readme-screenshots/mobile-about.png "About Page Mobile View")
 
 ## Projects Page
 
  ### Desktop View
-![Desktop-Projects](./images/readme%20screenshots/desktop-projects.png  "Projects Page Desktop View")
+![Desktop-Projects](./docs/images/readme-screenshots/desktop-projects.png  "Projects Page Desktop View")
 
 ### Tablet View
-![Tablet-Projects](./images/readme%20screenshots/tablet-projects.png  "Projects Page Tablet View")
+![Tablet-Projects](./docs/images/readme-screenshots/tablet-projects.png  "Projects Page Tablet View")
 
 ### Mobile View
-![Mobile-Projects](./images/readme%20screenshots/mobile-projects.png  "Projects Page Mobile View")
+![Mobile-Projects](./docs/images/readme-screenshots/mobile-projects.png  "Projects Page Mobile View")
 
 ## Blogs Page
 
 ### Desktop View
-![Desktop-Blogs](./images/readme%20screenshots/desktop-bloghome.png "Blogs Page Desktop View")
+![Desktop-Blogs](./docs/images/readme-screenshots/desktop-bloghome.png "Blogs Page Desktop View")
 
 ### Tablet View
-![Tablet-Blogs](./images/readme%20screenshots/tablet-blogs.png "Blogs Page Tablet View")
+![Tablet-Blogs](./docs/images/readme-screenshots/tablet-blogs.png "Blogs Page Tablet View")
 
 ### Mobile View
-![Mobile-Blogs](./images/readme%20screenshots/moblie-blogshome.png "Blogs Page Mobile View")
+![Mobile-Blogs](./docs/images/readme-screenshots/moblie-blogshome.png "Blogs Page Mobile View")
 
 ## Blog Pages
 
 ### Desktop View
-![Desktop-Blog](./images/readme%20screenshots/desktop-blog.png "Blog Page Desktop View")
+![Desktop-Blog](./docs/images/readme-screenshots/desktop-blog.png "Blog Page Desktop View")
 
 ### Tablet View
-![Tablet-Blog](./images/readme%20screenshots/tablet-blog.png "Blog Page Tablet View")
+![Tablet-Blog](./docs/images/readme-screenshots/tablet-blog.png "Blog Page Tablet View")
 
 ### Mobile View
-![Mobile-Blog](./images/readme%20screenshots/moblie-blog.png "Blog Page Mobile View")
+![Mobile-Blog](./docs/images/readme-screenshots/moblie-blog.png "Blog Page Mobile View")
 
 ## Contacts Page
 
 ### Desktop View
-![Desktop-Contact](./images/readme%20screenshots/desktop-contact.png "Contact Page Desktop View")
+![Desktop-Contact](./docs/images/readme-screenshots/desktop-contact.png "Contact Page Desktop View")
 
 ### Tablet View
-![Tablet-Contact](./images/readme%20screenshots/tablet-contact.png "Contacts Page Tablet View")
+![Tablet-Contact](./docs/images/readme-screenshots/tablet-contact.png "Contacts Page Tablet View")
 
 ### Mobile View
-![Mobile-Contact](./images/readme%20screenshots/moblie-contact.png "Contacts Page Mobile View")
+![Mobile-Contact](./docs/images/readme-screenshots/moblie-contact.png "Contacts Page Mobile View")
 
 ## Target audience
 The target audience for this portfolio is employers looking for a freelance front-end and back-end developer. It is also welcoming for people wanting to ask any questions and invites people who want to network with other developers and designers. This is emphasised through the form and text on the contact page.
