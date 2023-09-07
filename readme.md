@@ -1,5 +1,8 @@
 # Portfolio Site
 
+## NOTE
+- This is assignment 2 of Term 1 that was completed at the start of 2023. The project was to plan, design, develop and deploy a portfolio website that showcases your talent and abilities.
+
 ## Purpose
 The purpose of the website is to display a portfolio advertising personal skills and projects that would utilize my skills, which would be displayed throughout the website. The portfolio contains an 'About' page with information about me along with a brief description of what would be my skills and previous experience. The portfolio page will display image cards with the titles of the projects I have completed. The blogs page displays five blogs with links to each blog's page. The contacts page will contain contact information and a form for visitors to fill out to contact me.
 
